@@ -28,9 +28,7 @@ int isPrime(long x, long primes[]) {
   while(primes[index] != 0) {
     int result = !(x % primes[index]);
 
-    if (result) {
-      return 0;
-    }
+    if (result) {return 0;}
 
     index++;
   }
