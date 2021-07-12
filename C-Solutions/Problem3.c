@@ -7,7 +7,7 @@ void setPrimes(long primes[], long size);
 int main() {
   int size = 1000;
   long primeFactor = 0;
-  long limit = 600851475143;
+  long long int limit = 600851475143;
   long primes[size];
 
   setPrimes(primes, size);
