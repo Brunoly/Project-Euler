@@ -2,7 +2,6 @@
 #include <iostream>
 #include <algorithm>
 #include <string>
-#include <vector>
 
 int main() {
   long long int greatest_product = 0;
